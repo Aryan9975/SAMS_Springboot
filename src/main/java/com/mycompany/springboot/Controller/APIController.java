@@ -44,7 +44,7 @@ private String password;
     private LocationMethods locationService;
    
     
-    @GetMapping("/persons-passengers")
+    @GetMapping("/persons-passengerss")
     public List<PersonPassengerDTO> getAllPersonsWithPassengers() {
         return personService.getAllPersonsWithPassengers();
     }
