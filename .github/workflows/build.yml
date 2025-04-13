@@ -28,3 +28,7 @@ jobs:
       with:
         name: springboot-war
         path: target/*.war
+
+  call-second-workflow:
+    uses: ./.github/workflows/workflow2.yml
+    needs: build
