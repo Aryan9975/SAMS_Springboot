@@ -1,0 +1,11 @@
+name: Second Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "2 nd Workflow triggered"
